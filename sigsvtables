@@ -1,13 +1,20 @@
-Fortnite Virtual Tables And Sigs 03.03.2023
+Fortnite Virtual Tables And Sigs 14.03.2023
 
 [SIGS]
 UWorld: 48 89 05 ? ? ? ? 48 8B 4B 78
-BoneMatrix: E8 ? ? ? ? 0F 10 40 68 
+BoneMatrix: E8 ? ? ? ? 0F 10 40 68
 FreeFN: 48 89 D1 48 FF 25 ? ? ? ? C3
-WorldToScreen: 40 53 55 56 57 41 56 41 57 48 81 EC ? ? ? ? 48 8B 05 ? ? ? ? 48 33 C4 48 89 84 24 ? ? ? ? 33 DB 45 8A F9 49 8B F8 4C 8B F2 48 8B F1 48 85 C9 0F 84 ? ? ? ? 
-LineOfSightTo: 48 89 5C 24 ? 48 89 74 24 ? 55 57 41 56 48 8B EC 48 83 EC 60 33 FF 4D 8B F0 48 89 7D 28 48 8B DA 48 8B F1 E8 ? ? ? ? 48 8B CB 48 39 7B 20 74 0F 48 8B 53 18 4C 8D 45 28 E8 ? ? ? ? EB 1B 
-GetNameByIndex: 48 89 5C 24 ? 48 89 6C 24 ? 56 57 41 54 41 56 41 57 48 81 EC ? ? ? ? 48 8B 05 ? ? ? ? 48 33 C4 48 89 84 24 ? ? ? ? 8B 19 48 8B F2 0F B7 FB E8 ? ? ? ? 8B D3 44 8D 34 BD ? ? ? ? 48 C1 EA 10 4C 03 74 D0 ? 66 41 83 3E ? 0F 82 ? ? ? ? 
-CalculateProjectionMatrix: 48 85 C9 0F 84 ? ? ? ? 53 48 83 EC 20 48 89 7C 24 ? 48 8B D9 48 8B 3D ? ? ? ? 48 85 FF 0F 84 ? ? ? ? 48 8B 07 4C 8B 40 40 48 8D 05 ? ? ? ? 4C 3B C0 0F 85 ? ? ? ? 66 85 DB 74 0A 8B 0D ? ? ? ? 85 C9 75 44 
+WorldToScreen: 40 53 55 56 57 41 56 48 81 EC ? ? ? ? 48 8B 05 ? ? ? ? 48 33 C4 48 89 84 24 ? ? ? ? 33 DB 45 8A F1 49 8B F8 48 8B EA 48 8B F1 48 85 C9 0F 84 ? ? ? ? 48 39 99 ? ? ? ? 74 39 E8 ? ? ? ? 4C 8B 96 ? ? ? ? 48 8B C8 4D 85 D2 74 25 49 8B 42 10 48 85 C0 74 1C 
+LineOfSightTo: 48 89 5C 24 ? 48 89 74 24 ? 55 57 41 56 48 8B EC 48 83 EC 60 33 FF 4D 8B F0 48 89 7D 28 48 8B DA 48 8B F1 E8 ? ? ? ? 48 8B CB 48 39 7B 20 74 0F 48 8B 53 18 4C 8D 45 28 E8 ? ? ? ? EB 1B
+AILineOfSight: 48 89 5C 24 ? 48 89 6C 24 ? 48 89 74 24 ? 57 48 83 EC 50 48 8B 05 ? ? ? ? 48 33 C4 48 89 44 24 ? 65 48 8B 04 25 ? ? ? 
+GetNameByIndex: 48 89 5C 24 ? 48 89 6C 24 ? 56 57 41 54 41 56 41 57 48 81 EC ? ? ? ? 48 8B 05 ? ? ? ? 48 33 C4 48 89 84 24 ? ? ? ? 8B 19 48 8B F2 0F B7 FB E8 ? ? ? ?
+CalculateProjectionMatrix: 48 89 5C 24 ? 48 89 7C 24 ? 55 48 8D AC 24 ? ? ? ? 48 81 EC ? ? ? ? 48 8B 05 ? ? ? ? 48 33 C4 48 89 85 ? ? ? ? 48 8D 4D A0 49 8B F8 48 8B DA E8 ? ? ? ? 48 83 63 ? ? 48 8B CB 48 83 63 ? ? 48 83 7B ? ?
+GetObjectName: 48 89 5C 24 ? 48 89 7C 24 ? 55 48 8B EC 48 83 EC 30 48 83 65 ? ? 49 8B F8 48 8B DA E8 ? ? ? ? 48 83 7B ? ? 48 8B CB 0F 84 ? ? ? ? 48 8B 53 18 4C 8D 45 20 E8 ? ? ? ?
+GetWeaponStats: 48 89 5C 24 ? 48 89 74 24 ? 48 89 7C 24 ? 41 56 48 81 EC ? ? ? ? 33 FF 4D 8B F0 48 89 7C 24 ? 48 8B DA 89 7C 24 28 E8 ? ? ? ? 48 8B CB 48 39 7B 20 74 10 48 8B 53 18 4C 8D 44 24 ? E8 ? ? ? ? EB 1C
+GetVehiclesDamageVehiclesMiniGame: 33 C0 48 39 42 20 0F 95 C0 48 01 42 20 8A 81 ? ? ? ? 41 88 00 C3
+StaticFindObjectFast: 48 8B C4 48 89 58 08 48 89 68 10 48 89 70 18 48 89 78 20 41 56 48 83 EC 40 80 3D ? ? ? ? ? 41 8A F1 41 8B D8 48 8B EA 4C 8B F1 74 09 E8 ? ? ? ? 84 C0 75 09
+GetPlayerViewPoint: 48 8B C4 48 89 58 08 48 89 70 10 48 89 78 18 41 56 48 83 EC 50 33 FF 4C 8B F1 48 8B DA 48 89 7A 38 48 8B CA 48 89 7A 40 48 39 7A 20 74 0F 48 8B 52 18 4C 8D 40 C8 E8 ? ? ? ? EB 1C
+
 
 
 [Virtual Tables]
@@ -16,5 +23,12 @@ GetCameraLocation: 0x7D0
 GetCameraRotation: 0x7C8
 ClientSetCameraMode: 0x9F8 (linora firstperson)
 GetPlayerViewPoint: 0x7B8
-SetControlRotation: 0x728
-ProcessEvent: 0x25
+SetControlRotation: 0x728 
+ProcessEvent: 0x4C
+
+[OFFSETS]
+
+UWorld: 0xEF005E0
+BoneMatrix: 0xD5D844
+WorldToScreen: 0x9CC7E7C
+LineOfSightTo: 0x9C6AD1C
